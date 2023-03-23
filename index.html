@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="calc">
+            <div class="screen">
+                <input style="font-size:25px;" type="text"  id="output">
+
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="buttonclick(7)" class="buttonstyle">7</button>
+                    <button onclick="buttonclick(8)" class="buttonstyle">8</button>
+                    <button onclick="buttonclick(9)" class="buttonstyle">9</button>
+                    <button onclick="buttonclick('-')" class="buttonstyle">-</button>
+
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick(4)" class="buttonstyle">4</button>
+                    <button onclick="buttonclick(5)" class="buttonstyle">5</button>
+                    <button onclick="buttonclick(6)" class="buttonstyle">6</button>
+                    <button onclick="buttonclick('+')" class="buttonstyle">+</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick(1)" class="buttonstyle">1</button>
+                    <button onclick="buttonclick(2)" class="buttonstyle">2</button>
+                    <button onclick="buttonclick(3)" class="buttonstyle">3</button>
+                    <button onclick="buttonclick('*')" class="buttonstyle">*</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="buttonclick(0)" class="buttonstyle">0</button>
+                    <button onclick="buttonclick('.')" class="buttonstyle">.</button>
+                    <button onclick="cleardisplay()" class="buttonstyle">c</button>
+                    <button onclick="equalbutton()" class="buttonstyle">=</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
